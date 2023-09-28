@@ -1,8 +1,9 @@
 import dns.resolver
-# url = input("Please input your url ")
-# host = url
 
-host = "hackthissite.org"
+url = input("Please input your url ")
+host = url
+
+#host = "hackthissite.org"
 record_types = {
     1: 'A',
     2: 'MX',
